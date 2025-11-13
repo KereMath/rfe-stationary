@@ -1,0 +1,33 @@
+{
+  "strategy": "Hybrid (SelectKBest + RFE)",
+  "description": "Two-stage: SelectKBest 60->40, then RFE 40->25",
+  "initial_features": 35,
+  "final_features": 25,
+  "selected_indices": [
+    3,
+    4,
+    5,
+    9,
+    11,
+    12,
+    13,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    33,
+    34
+  ]
+}

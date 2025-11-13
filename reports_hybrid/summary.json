@@ -1,0 +1,8 @@
+{
+  "strategy": "Hybrid (SelectKBest + RFE)",
+  "test_accuracies": {
+    "xgboost": 0.846574074074074,
+    "lightgbm": 0.8493518518518518,
+    "random_forest": 0.8381481481481482
+  }
+}

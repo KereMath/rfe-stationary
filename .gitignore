@@ -13,12 +13,6 @@ trained_models_hybrid/
 trained_models_rfe_cv/
 trained_models_rfe_only/
 
-# Reports
-reports_hybrid/
-reports_rfe_cv/
-reports_rfe_only/
-reports_v2_len_div_10/
-
 # Large data files
 *.npy
 *.pkl

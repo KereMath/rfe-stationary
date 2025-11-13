@@ -1,0 +1,202 @@
+================================================================================
+HYPERPARAMETER TUNING REPORT: RANDOM_FOREST_FAST
+================================================================================
+
+Search Method: GRID
+Cross-Validation Folds: 3
+Total Combinations Tested: 12
+Total Tuning Time: 97.22 seconds
+
+================================================================================
+BEST COMBINATION (Rank #1)
+================================================================================
+Mean CV Score: 0.832672
+Parameters:
+  max_depth: 20
+  min_samples_split: 5
+  n_estimators: 300
+
+================================================================================
+TOP 20 BEST PERFORMING COMBINATIONS
+================================================================================
+
+Rank #1:
+  Mean CV Score: 0.832672 (+/- 0.000441)
+  Mean Train Score: 0.977679 (+/- 0.000857)
+  Parameters:
+    n_estimators: 300
+    max_depth: 20
+    min_samples_split: 5
+
+Rank #2:
+  Mean CV Score: 0.832487 (+/- 0.000211)
+  Mean Train Score: 0.981276 (+/- 0.000661)
+  Parameters:
+    n_estimators: 200
+    max_depth: 20
+    min_samples_split: 2
+
+Rank #3:
+  Mean CV Score: 0.832421 (+/- 0.000224)
+  Mean Train Score: 0.977513 (+/- 0.001005)
+  Parameters:
+    n_estimators: 200
+    max_depth: 20
+    min_samples_split: 5
+
+Rank #4:
+  Mean CV Score: 0.832315 (+/- 0.000123)
+  Mean Train Score: 0.981746 (+/- 0.000677)
+  Parameters:
+    n_estimators: 300
+    max_depth: 20
+    min_samples_split: 2
+
+Rank #5:
+  Mean CV Score: 0.831799 (+/- 0.000449)
+  Mean Train Score: 0.976389 (+/- 0.000693)
+  Parameters:
+    n_estimators: 100
+    max_depth: 20
+    min_samples_split: 5
+
+Rank #6:
+  Mean CV Score: 0.831746 (+/- 0.000907)
+  Mean Train Score: 0.980099 (+/- 0.000505)
+  Parameters:
+    n_estimators: 100
+    max_depth: 20
+    min_samples_split: 2
+
+Rank #7:
+  Mean CV Score: 0.827751 (+/- 0.000408)
+  Mean Train Score: 0.909524 (+/- 0.001391)
+  Parameters:
+    n_estimators: 200
+    max_depth: 15
+    min_samples_split: 5
+
+Rank #8:
+  Mean CV Score: 0.827354 (+/- 0.000648)
+  Mean Train Score: 0.909749 (+/- 0.000661)
+  Parameters:
+    n_estimators: 300
+    max_depth: 15
+    min_samples_split: 5
+
+Rank #9:
+  Mean CV Score: 0.827341 (+/- 0.000489)
+  Mean Train Score: 0.912288 (+/- 0.000414)
+  Parameters:
+    n_estimators: 300
+    max_depth: 15
+    min_samples_split: 2
+
+Rank #10:
+  Mean CV Score: 0.826984 (+/- 0.000545)
+  Mean Train Score: 0.911753 (+/- 0.000614)
+  Parameters:
+    n_estimators: 200
+    max_depth: 15
+    min_samples_split: 2
+
+Rank #11:
+  Mean CV Score: 0.826759 (+/- 0.000428)
+  Mean Train Score: 0.908638 (+/- 0.000879)
+  Parameters:
+    n_estimators: 100
+    max_depth: 15
+    min_samples_split: 5
+
+Rank #12:
+  Mean CV Score: 0.826376 (+/- 0.000391)
+  Mean Train Score: 0.910483 (+/- 0.000885)
+  Parameters:
+    n_estimators: 100
+    max_depth: 15
+    min_samples_split: 2
+
+================================================================================
+BOTTOM 10 WORST PERFORMING COMBINATIONS
+================================================================================
+
+Rank #3:
+  Mean CV Score: 0.832421 (+/- 0.000224)
+  Mean Train Score: 0.977513 (+/- 0.001005)
+  Parameters:
+    n_estimators: 200
+    max_depth: 20
+    min_samples_split: 5
+
+Rank #4:
+  Mean CV Score: 0.832315 (+/- 0.000123)
+  Mean Train Score: 0.981746 (+/- 0.000677)
+  Parameters:
+    n_estimators: 300
+    max_depth: 20
+    min_samples_split: 2
+
+Rank #5:
+  Mean CV Score: 0.831799 (+/- 0.000449)
+  Mean Train Score: 0.976389 (+/- 0.000693)
+  Parameters:
+    n_estimators: 100
+    max_depth: 20
+    min_samples_split: 5
+
+Rank #6:
+  Mean CV Score: 0.831746 (+/- 0.000907)
+  Mean Train Score: 0.980099 (+/- 0.000505)
+  Parameters:
+    n_estimators: 100
+    max_depth: 20
+    min_samples_split: 2
+
+Rank #7:
+  Mean CV Score: 0.827751 (+/- 0.000408)
+  Mean Train Score: 0.909524 (+/- 0.001391)
+  Parameters:
+    n_estimators: 200
+    max_depth: 15
+    min_samples_split: 5
+
+Rank #8:
+  Mean CV Score: 0.827354 (+/- 0.000648)
+  Mean Train Score: 0.909749 (+/- 0.000661)
+  Parameters:
+    n_estimators: 300
+    max_depth: 15
+    min_samples_split: 5
+
+Rank #9:
+  Mean CV Score: 0.827341 (+/- 0.000489)
+  Mean Train Score: 0.912288 (+/- 0.000414)
+  Parameters:
+    n_estimators: 300
+    max_depth: 15
+    min_samples_split: 2
+
+Rank #10:
+  Mean CV Score: 0.826984 (+/- 0.000545)
+  Mean Train Score: 0.911753 (+/- 0.000614)
+  Parameters:
+    n_estimators: 200
+    max_depth: 15
+    min_samples_split: 2
+
+Rank #11:
+  Mean CV Score: 0.826759 (+/- 0.000428)
+  Mean Train Score: 0.908638 (+/- 0.000879)
+  Parameters:
+    n_estimators: 100
+    max_depth: 15
+    min_samples_split: 5
+
+Rank #12:
+  Mean CV Score: 0.826376 (+/- 0.000391)
+  Mean Train Score: 0.910483 (+/- 0.000885)
+  Parameters:
+    n_estimators: 100
+    max_depth: 15
+    min_samples_split: 2
+

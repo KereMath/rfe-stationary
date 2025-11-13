@@ -1,0 +1,162 @@
+{
+  "model": "random_forest_fast",
+  "search_method": "grid",
+  "cv_folds": 3,
+  "n_combinations_tested": 12,
+  "tuning_time_seconds": 97.22055864334106,
+  "best_combination": {
+    "rank": 1,
+    "mean_cv_score": 0.8326719576719577,
+    "parameters": {
+      "max_depth": 20,
+      "min_samples_split": 5,
+      "n_estimators": 300
+    }
+  },
+  "all_combinations": [
+    {
+      "rank": 1,
+      "mean_cv_score": 0.8326719576719577,
+      "std_cv_score": 0.000441093439167547,
+      "mean_train_score": 0.9776785714285715,
+      "std_train_score": 0.0008572408331227299,
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 20,
+        "min_samples_split": 5
+      }
+    },
+    {
+      "rank": 2,
+      "mean_cv_score": 0.8324867724867725,
+      "std_cv_score": 0.0002108118710385085,
+      "mean_train_score": 0.981276455026455,
+      "std_train_score": 0.0006613095205023228,
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "min_samples_split": 2
+      }
+    },
+    {
+      "rank": 3,
+      "mean_cv_score": 0.8324206349206348,
+      "std_cv_score": 0.00022447834323379242,
+      "mean_train_score": 0.9775132275132276,
+      "std_train_score": 0.0010045945791559295,
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 20,
+        "min_samples_split": 5
+      }
+    },
+    {
+      "rank": 4,
+      "mean_cv_score": 0.8323148148148148,
+      "std_cv_score": 0.00012266691131604518,
+      "mean_train_score": 0.9817460317460318,
+      "std_train_score": 0.0006765456006637375,
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 20,
+        "min_samples_split": 2
+      }
+    },
+    {
+      "rank": 5,
+      "mean_cv_score": 0.8317989417989419,
+      "std_cv_score": 0.00044934623681121445,
+      "mean_train_score": 0.9763888888888889,
+      "std_train_score": 0.0006926469556394811,
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_split": 5
+      }
+    },
+    {
+      "rank": 6,
+      "mean_cv_score": 0.8317460317460318,
+      "std_cv_score": 0.0009072184232530348,
+      "mean_train_score": 0.9800992063492063,
+      "std_train_score": 0.0005053360183833743,
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_split": 2
+      }
+    },
+    {
+      "rank": 7,
+      "mean_cv_score": 0.8277513227513227,
+      "std_cv_score": 0.00040769933882069803,
+      "mean_train_score": 0.9095238095238095,
+      "std_train_score": 0.001390965945011985,
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 15,
+        "min_samples_split": 5
+      }
+    },
+    {
+      "rank": 8,
+      "mean_cv_score": 0.8273544973544974,
+      "std_cv_score": 0.0006482831087218402,
+      "mean_train_score": 0.9097486772486771,
+      "std_train_score": 0.0006613095205023228,
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 15,
+        "min_samples_split": 5
+      }
+    },
+    {
+      "rank": 9,
+      "mean_cv_score": 0.8273412698412699,
+      "std_cv_score": 0.0004892392065848352,
+      "mean_train_score": 0.9122883597883598,
+      "std_train_score": 0.00041440344438681287,
+      "params": {
+        "n_estimators": 300,
+        "max_depth": 15,
+        "min_samples_split": 2
+      }
+    },
+    {
+      "rank": 10,
+      "mean_cv_score": 0.826984126984127,
+      "std_cv_score": 0.0005450634332814014,
+      "mean_train_score": 0.9117526455026455,
+      "std_train_score": 0.000613976082818832,
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 15,
+        "min_samples_split": 2
+      }
+    },
+    {
+      "rank": 11,
+      "mean_cv_score": 0.8267592592592591,
+      "std_cv_score": 0.0004278032176930321,
+      "mean_train_score": 0.9086375661375662,
+      "std_train_score": 0.000878758967603297,
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 15,
+        "min_samples_split": 5
+      }
+    },
+    {
+      "rank": 12,
+      "mean_cv_score": 0.8263756613756614,
+      "std_cv_score": 0.00039060378466224837,
+      "mean_train_score": 0.9104828042328043,
+      "std_train_score": 0.0008853051181098158,
+      "params": {
+        "n_estimators": 100,
+        "max_depth": 15,
+        "min_samples_split": 2
+      }
+    }
+  ]
+}

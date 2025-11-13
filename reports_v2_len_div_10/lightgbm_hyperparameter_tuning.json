@@ -1,0 +1,162 @@
+{
+  "model": "lightgbm",
+  "search_method": "grid",
+  "cv_folds": 3,
+  "n_combinations_tested": 12,
+  "tuning_time_seconds": 129.19543290138245,
+  "best_combination": {
+    "rank": 1,
+    "mean_cv_score": 0.8460714285714285,
+    "parameters": {
+      "learning_rate": 0.05,
+      "max_depth": 10,
+      "n_estimators": 300
+    }
+  },
+  "all_combinations": [
+    {
+      "rank": 1,
+      "mean_cv_score": 0.8460714285714285,
+      "std_cv_score": 0.001854495467547275,
+      "mean_train_score": 0.9927314814814815,
+      "std_train_score": 0.00043146842408201463,
+      "params": {
+        "n_estimators": 300,
+        "learning_rate": 0.05,
+        "max_depth": 10
+      }
+    },
+    {
+      "rank": 2,
+      "mean_cv_score": 0.8449603174603174,
+      "std_cv_score": 0.0018248216255005816,
+      "mean_train_score": 0.9797288359788361,
+      "std_train_score": 0.0011896307991849828,
+      "params": {
+        "n_estimators": 300,
+        "learning_rate": 0.05,
+        "max_depth": 7
+      }
+    },
+    {
+      "rank": 3,
+      "mean_cv_score": 0.844457671957672,
+      "std_cv_score": 0.0018514738843304274,
+      "mean_train_score": 0.9739285714285715,
+      "std_train_score": 0.0012736591086257066,
+      "params": {
+        "n_estimators": 200,
+        "learning_rate": 0.05,
+        "max_depth": 10
+      }
+    },
+    {
+      "rank": 4,
+      "mean_cv_score": 0.8442592592592592,
+      "std_cv_score": 0.0015438270370863791,
+      "mean_train_score": 0.9503835978835978,
+      "std_train_score": 0.0015369266140702993,
+      "params": {
+        "n_estimators": 200,
+        "learning_rate": 0.05,
+        "max_depth": 7
+      }
+    },
+    {
+      "rank": 5,
+      "mean_cv_score": 0.8432671957671958,
+      "std_cv_score": 0.0016849380596752788,
+      "mean_train_score": 0.9219246031746032,
+      "std_train_score": 0.001777390949033424,
+      "params": {
+        "n_estimators": 100,
+        "learning_rate": 0.05,
+        "max_depth": 10
+      }
+    },
+    {
+      "rank": 6,
+      "mean_cv_score": 0.8405158730158729,
+      "std_cv_score": 0.0012179372423192676,
+      "mean_train_score": 0.8984391534391535,
+      "std_train_score": 0.0012613736084461963,
+      "params": {
+        "n_estimators": 100,
+        "learning_rate": 0.05,
+        "max_depth": 7
+      }
+    },
+    {
+      "rank": 7,
+      "mean_cv_score": 0.8401851851851853,
+      "std_cv_score": 0.0007683352238866169,
+      "mean_train_score": 0.8901653439153439,
+      "std_train_score": 0.0012513465214695771,
+      "params": {
+        "n_estimators": 300,
+        "learning_rate": 0.01,
+        "max_depth": 10
+      }
+    },
+    {
+      "rank": 8,
+      "mean_cv_score": 0.835462962962963,
+      "std_cv_score": 0.0005444210483401001,
+      "mean_train_score": 0.8732473544973546,
+      "std_train_score": 0.0012822162115876986,
+      "params": {
+        "n_estimators": 200,
+        "learning_rate": 0.01,
+        "max_depth": 10
+      }
+    },
+    {
+      "rank": 9,
+      "mean_cv_score": 0.8337433862433863,
+      "std_cv_score": 0.0011777687454789833,
+      "mean_train_score": 0.8705952380952381,
+      "std_train_score": 0.0011442754647060266,
+      "params": {
+        "n_estimators": 300,
+        "learning_rate": 0.01,
+        "max_depth": 7
+      }
+    },
+    {
+      "rank": 10,
+      "mean_cv_score": 0.8287037037037037,
+      "std_cv_score": 0.0006658578279710452,
+      "mean_train_score": 0.8550529100529101,
+      "std_train_score": 0.0013178480549679435,
+      "params": {
+        "n_estimators": 100,
+        "learning_rate": 0.01,
+        "max_depth": 10
+      }
+    },
+    {
+      "rank": 11,
+      "mean_cv_score": 0.8281746031746032,
+      "std_cv_score": 0.00101843262195346,
+      "mean_train_score": 0.8574537037037038,
+      "std_train_score": 0.0013165529375654607,
+      "params": {
+        "n_estimators": 200,
+        "learning_rate": 0.01,
+        "max_depth": 7
+      }
+    },
+    {
+      "rank": 12,
+      "mean_cv_score": 0.8188492063492063,
+      "std_cv_score": 0.0015766840662170556,
+      "mean_train_score": 0.8424801587301586,
+      "std_train_score": 0.0023487124999291417,
+      "params": {
+        "n_estimators": 100,
+        "learning_rate": 0.01,
+        "max_depth": 7
+      }
+    }
+  ]
+}
