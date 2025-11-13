@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Processed data
+processed_data_v2_len_div_10/
+
+# Trained models
+trained_models_hybrid/
+trained_models_rfe_cv/
+trained_models_rfe_only/
+
+# Reports
+reports_hybrid/
+reports_rfe_cv/
+reports_rfe_only/
+reports_v2_len_div_10/
+
+# Large data files
+*.npy
+*.pkl
+*.h5
+*.hdf5
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
